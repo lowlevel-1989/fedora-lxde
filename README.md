@@ -60,3 +60,19 @@ $ sudo passwd lowlevel
 ~~~
 $ sudo usermod -aG wheel lowlevel
 ~~~
+
+### Instalar Git
+~~~
+$ sudo dnf install git
+~~~
+
+### Configurar Git
+~~~
+$ git config --global user.email "vinicio.valbuena89@gmail.com"
+$ git config --global user.name "Vinicio Valbuena"
+~~~
+
+### Aqui odiamos el gnome password box, Asi que lo desactivamos
+~~~
+$ git config --global core.askpass ''
+~~~
