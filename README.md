@@ -76,3 +76,45 @@ $ git config --global user.name "Vinicio Valbuena"
 ~~~
 $ git config --global core.askpass ''
 ~~~
+
+### Buscar video y buscar controlador en internet
+~~~
+$ lspci |grep -E "VGA|3D"
+~~~
+
+### Buscar controlador nvidia
+- https://www.nvidia.com/Download/Find.aspx?lang=en-us
+
+### Si es NVIDIA descativar nouveau que no es compatible
+~~~
+$ echo "blacklist nouveau" >> /etc/modprobe.d/nouveau-blacklist.conf
+~~~
+
+### Actualizar argumento del kernel
+~~~
+$ ### Agregar argumento rd.driver.blacklist=nouveau En GRUB_CMDLINE_LINUX
+$
+$ sudo vim /etc/default/grub
+$ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+$ sudo dnf remove xorg-x11-drv-nouveau
+~~~
+
+### Instalar dependencias para compilar el controlador de NVIDIA
+~~~
+$ sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
+~~~
+
+### Validar Driver NVIDIA
+~~~
+$ nvidia-smi
+~~~
+
+### Instalar Vulkan
+~~~
+$ sudo dnf install vulkan mesa-vulkan-drivers vulkan-tools
+~~~
+
+### Test Vulkan
+~~~
+$ vulkaninfo | less
+~~~
