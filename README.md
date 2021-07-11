@@ -79,7 +79,7 @@ $ git config --global core.askpass ''
 
 ### Buscar video y buscar controlador en internet
 ~~~
-$ lspci |grep -E "VGA|3D"
+$ lspci | grep -E "VGA|3D"
 ~~~
 
 ### Buscar controlador nvidia
@@ -117,4 +117,14 @@ $ sudo dnf install vulkan mesa-vulkan-drivers vulkan-tools
 ### Test Vulkan
 ~~~
 $ vulkaninfo | less
+~~~
+
+### Validar Xorg
+~~~
+$ grep LoadModule /var/log/Xorg.0.log
+~~~
+
+### Validar opengl
+~~~
+$ glxinfo
 ~~~
