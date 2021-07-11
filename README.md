@@ -128,3 +128,21 @@ $ grep LoadModule /var/log/Xorg.0.log
 ~~~
 $ glxinfo
 ~~~
+
+### Validar zona horaria
+~~~
+$ timedatectl
+~~~
+
+### Ver zona horarias disposibles
+~~~
+$ timedatectl list-timezones
+$ # ó
+$ ls /usr/share/zoneinfo
+~~~
+
+### Cambiar zona horaria
+~~~
+$ sudo timedatectl set-timezone Europe/Madrid
+~~~
+
