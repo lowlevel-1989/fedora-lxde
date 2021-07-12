@@ -146,3 +146,19 @@ $ ls /usr/share/zoneinfo
 $ sudo timedatectl set-timezone Europe/Madrid
 ~~~
 
+### Configurar V4L2 loopback (opcional)
+~~~
+$ git clone https://github.com/formatcom/v4l2loopback
+$ make
+$ sudo make install
+$ sudo depmod -a
+~~~
+
+### V4L2 UTILS
+~~~
+$ sudo dnf install v4l-utils
+$ v4l2-ctl --list-devices
+$ v4l2-ctl -d /dev/video3 --all
+$ v4l2-ctl -d /dev/video3 --list-formats-ext
+~~~
+
