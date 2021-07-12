@@ -1,3 +1,7 @@
+- https://trac.ffmpeg.org/wiki/HWAccelIntro
+- https://trac.ffmpeg.org/wiki/Hardware/VAAPI
+- https://trac.ffmpeg.org/wiki/Hardware/QuickSync
+
 ### Desactivar auto interfaz grafica
 ~~~
 $ sudo systemctl disable lxdm.service
@@ -82,6 +86,11 @@ $ git config --global core.askpass ''
 $ lspci | grep -E "VGA|3D"
 ~~~
 
+### Instalar driver intel para soporte VA API
+~~~
+$ sudo dnf install intel-media-driver
+~~~
+
 ### Buscar controlador nvidia
 - https://www.nvidia.com/Download/Find.aspx?lang=en-us
 
@@ -124,6 +133,11 @@ $ vulkaninfo | less
 $ grep LoadModule /var/log/Xorg.0.log
 ~~~
 
+### Validar validar validar
+~~~
+$ cat /proc/driver/nvidia/version
+~~~
+
 ### Validar opengl
 ~~~
 $ glxinfo
@@ -154,7 +168,7 @@ $ sudo make install
 $ sudo depmod -a
 ~~~
 
-### V4L2 UTILS
+### V4L2 UTILS (opcional)
 ~~~
 $ sudo dnf install v4l-utils
 $ v4l2-ctl --list-devices
@@ -162,3 +176,12 @@ $ v4l2-ctl -d /dev/video3 --all
 $ v4l2-ctl -d /dev/video3 --list-formats-ext
 ~~~
 
+### Habilitar repositorio Fusion (opcional)
+~~~
+$ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+~~~
+
+### Instalar OBS
+~~~
+$ sudo dnf install obs-studio
+~~~
