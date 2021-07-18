@@ -240,3 +240,26 @@ $ sudo dnf install tmux
 ~~~
 $ sudo dnf install xclip
 ~~~
+
+### Hacer de vim algo sexy
+~~~
+$ git clone https://github.com/formatcom/vimrc.git
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ cp vimrc ~/.vimrc
+$ vim +PluginInstall +qall
+~~~
+
+### Instalar dependencias de YouCompleteMe
+~~~
+$ sudo dnf install python3-devel
+$ pip install flake8
+$ pip install pytest
+$ pip install PyHamcrest
+~~~
+
+### Instalar YouCompleteMe
+~~~
+$ cd ~/.vim/bundle/YouCompleteMe
+$ python3 run_tests.py
+$ python3 install.py --all
+~~~
