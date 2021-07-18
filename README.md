@@ -65,6 +65,11 @@ $ openbox --restart
 $ sudo dnf install openbox-theme-mistral-thin
 ~~~
 
+### Instalar cliente bluetooth
+~~~
+$ sudo dnf install blueman
+~~~
+
 ### Crear usuario (opcional)
 ~~~
 $ sudo adduser lowlevel
