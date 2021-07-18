@@ -8,6 +8,16 @@
 $ sudo systemctl disable lxdm.service
 ~~~
 
+### Ver fuentes para el modo texto
+~~~
+$ ls /lib/kbd/consolefonts/ -1 | grep gz | cat
+~~~
+
+### Cambiar la fuente a tu gusto
+~~~
+$ sudo cp vconsole.conf /etc/vconsole.conf
+~~~
+
 ### Actualizar S.O
 ~~~
 $ sudo dnf upgrade
