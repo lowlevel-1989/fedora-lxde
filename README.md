@@ -1,3 +1,4 @@
+- https://github.com/formatcom/mio
 - https://trac.ffmpeg.org/wiki/HWAccelIntro
 - https://trac.ffmpeg.org/wiki/Hardware/VAAPI
 - https://trac.ffmpeg.org/wiki/Hardware/QuickSync
@@ -184,4 +185,38 @@ $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-re
 ### Instalar OBS
 ~~~
 $ sudo dnf install obs-studio
+~~~
+
+### Instalar Zsh
+~~~
+$ sudo dnf install zsh
+~~~
+
+### Antes de colocar zsh por defecto, validar si esta autorizada
+~~~
+$ cat /etc/shells
+~~~
+
+### Colocar zsh como shell por defecto, para el usuario
+~~~
+$ sudo usermod --shell $(which zsh) $(id --user --name)
+~~~
+
+### Validar si se cambio la shell para tu usuario
+~~~
+$ cat /etc/passwd
+~~~
+
+### Instalar Oh My Zsh
+~~~
+$ curl -LO https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+$ chmod +x install.sh
+~~~
+
+### Configurar el tema de la terminal que gustes (para mi wezm+)
+- https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+### Para hacerlo mas seisi, instalar tmux: Terminal MUltipleXer
+~~~
+$ sudo dnf install tmux
 ~~~
