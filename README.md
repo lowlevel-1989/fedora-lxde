@@ -197,6 +197,11 @@ $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-re
 $ sudo dnf install obs-studio
 ~~~
 
+### Instalar Emulador terminal
+~~~
+$ sudo dnf install xfce4-terminal
+~~~
+
 ### Instalar Zsh
 ~~~
 $ sudo dnf install zsh
@@ -229,4 +234,9 @@ $ chmod +x install.sh
 ### Para hacerlo mas seisi, instalar tmux: Terminal MUltipleXer
 ~~~
 $ sudo dnf install tmux
+~~~
+
+### Instalar xclip, yo lo usare junto a vim y tmux
+~~~
+$ sudo dnf install xclip
 ~~~
