@@ -173,7 +173,7 @@ $ sudo timedatectl set-timezone Europe/Madrid
 
 ### Configurar V4L2 loopback (opcional)
 ~~~
-$ git clone https://github.com/formatcom/v4l2loopback
+$ git clone https://github.com/umlaeute/v4l2loopback
 $ make
 $ sudo make install
 $ sudo depmod -a
@@ -252,6 +252,11 @@ $ vim +PluginInstall +qall
 ### Instalar dependencias de YouCompleteMe
 ~~~
 $ sudo dnf install python3-devel
+$ sudo dnf install golang                 # soporte go
+$ sudo dnf install nodejs                 # soporte nodejs
+$ sudo dnf install java-latest-openjdk    # soporte java
+~~~
+~~~
 $ pip install flake8
 $ pip install pytest
 $ pip install PyHamcrest
