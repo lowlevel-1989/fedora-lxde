@@ -117,7 +117,7 @@ $ sudo usermod -aG wheel lowlevel
 ~~~
  - Cambiar apariencia de las ventanas:
 ~~~
-	- OpenBox Configuration Manager
+	- Preferences -> OpenBox Configuration Manager
 ~~~
 
 ### Eliminar screensaver, normalmente trae mas problemas que beneficios
