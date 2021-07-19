@@ -80,6 +80,21 @@ $ sudo dnf install blueman
 $ sudo dnf instasll thunar
 ~~~
 
+### Instalar Gestor de apariencia
+~~~
+$ sudo dnf install lxappearance
+~~~
+
+### Buscar iconos para el tema
+~~~
+$ dnf search icon-theme
+~~~
+
+### Instalar los iconos que te gusten :3 ejemplo
+~~~
+$ sudo dnf install luv-icon-theme
+~~~
+
 ### Crear usuario (opcional)
 ~~~
 $ sudo adduser lowlevel
