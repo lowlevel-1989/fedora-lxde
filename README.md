@@ -125,6 +125,11 @@ $ sudo usermod -aG wheel lowlevel
 $ sudo dnf remove $(rpm -qa | grep xscreensaver)
 ~~~
 
+### Instalar OpenVPN (Opcional)
+~~~
+$ sudo dnf install openvpn
+~~~
+
 ### Instalar Git
 ~~~
 $ sudo dnf install git
