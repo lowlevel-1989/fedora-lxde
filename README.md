@@ -1,4 +1,6 @@
+- https://wiki.archlinux.org/title/General_recommendations
 - https://github.com/formatcom/mio
+- https://github.com/formatcom/vimrc
 - https://trac.ffmpeg.org/wiki/HWAccelIntro
 - https://trac.ffmpeg.org/wiki/Hardware/VAAPI
 - https://trac.ffmpeg.org/wiki/Hardware/QuickSync
