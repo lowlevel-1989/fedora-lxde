@@ -3,7 +3,7 @@
 - https://trac.ffmpeg.org/wiki/Hardware/VAAPI
 - https://trac.ffmpeg.org/wiki/Hardware/QuickSync
 
-### Desactivar auto interfaz grafica
+### Desactivar auto interfaz grafica (Importante, por si dañas la interfaz o el sistema y esto evite que se quede congelado)
 ~~~
 $ sudo systemctl disable lxdm.service
 ~~~
