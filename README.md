@@ -92,7 +92,7 @@ $ dnf search icon-theme
 
 ### Instalar los iconos que te gusten :3 ejemplo
 ~~~
-$ sudo dnf install luv-icon-theme
+$ sudo dnf install breeze-icon-theme
 ~~~
 
 ### Crear usuario (opcional)
