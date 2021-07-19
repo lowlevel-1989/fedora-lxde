@@ -125,7 +125,7 @@ $ sudo usermod -aG wheel lowlevel
 $ sudo dnf remove $(rpm -qa | grep xscreensaver)
 ~~~
 
-### Instalar OpenVPN (Opcional)
+### Instalar OpenVPN (opcional)
 ~~~
 $ sudo dnf install openvpn
 ~~~
