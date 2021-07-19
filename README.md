@@ -18,6 +18,11 @@ $ ls /lib/kbd/consolefonts/ -1 | grep gz | cat
 $ sudo cp vconsole.conf /etc/vconsole.conf
 ~~~
 
+### Por si la quieres cambiar de una forma no permanente
+~~~
+$ setfont solar24x32
+~~~
+
 ### Actualizar S.O
 ~~~
 $ sudo dnf upgrade
@@ -68,6 +73,11 @@ $ sudo dnf install openbox-theme-mistral-thin
 ### Instalar cliente bluetooth
 ~~~
 $ sudo dnf install blueman
+~~~
+
+### Instalar Thunar como navegador de archivos
+~~~
+$ sudo dnf instasll thunar
 ~~~
 
 ### Crear usuario (opcional)
