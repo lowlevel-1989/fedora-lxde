@@ -181,6 +181,7 @@ $ sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx 
 ### Instalar NVIDIA desde el modo texto, Ejemplo
 ~~~
 $ sudo ./NVIDIA-Linux-x86_64-460.84.run
+$ reboot
 ~~~
 
 ### Validar Driver NVIDIA
