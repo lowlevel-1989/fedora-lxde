@@ -106,6 +106,11 @@ $ sudo passwd lowlevel
 $ sudo usermod -aG wheel lowlevel
 ~~~
 
+### Eliminar screensaver, normalmente trae mas problemas que beneficios
+~~~
+$ sudo dnf remove $(rpm -qa | grep xscreensaver)
+~~~
+
 ### Instalar Git
 ~~~
 $ sudo dnf install git
