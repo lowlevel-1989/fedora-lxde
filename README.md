@@ -178,6 +178,11 @@ $ sudo dnf remove xorg-x11-drv-nouveau
 $ sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
 ~~~
 
+### Instalar NVIDIA desde el modo texto, Ejemplo
+~~~
+$ sudo ./NVIDIA-Linux-x86_64-460.84.run
+~~~
+
 ### Validar Driver NVIDIA
 ~~~
 $ nvidia-smi
