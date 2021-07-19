@@ -65,11 +65,6 @@ $ cp lxde-rc.xml .config/openbox/lxde-rc.xml
 $ openbox --restart
 ~~~
 
-### Instalar un Tema para OpenBox
-~~~
-$ sudo dnf install openbox-theme-mistral-thin
-~~~
-
 ### Instalar cliente bluetooth
 ~~~
 $ sudo dnf install blueman
@@ -94,6 +89,17 @@ $ dnf search icon-theme
 ~~~
 $ sudo dnf install breeze-icon-theme
 ~~~
+
+### Buscar temas para OpenBox
+~~~
+$ dnf search openbox-theme
+~~~
+
+### Instalar un Tema para OpenBox
+~~~
+$ sudo dnf install openbox-theme-mistral-thin
+~~~
+
 
 ### Crear usuario (opcional)
 ~~~
