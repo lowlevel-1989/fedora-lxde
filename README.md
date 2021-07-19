@@ -101,20 +101,18 @@ $ sudo adduser lowlevel
 $ sudo passwd lowlevel
 ~~~
 
-### Configurar la aparencia y aplicaciones por defecto si gustas (opcional)
-~~~
- - Aplicaciones por defecto se configuran desde aqui:
-	- Preferences -> Default applications for LXSession
- - Cambiar Iconos del sistema y muchas cosas mas
-	- Preferences -> Customize Look and Feel
- - Cambiar apariencia de las ventanas
-	- OpenBox Configuration Manager
-~~~
-
 ### Agregarlo como usuario con privilegios (opcional)
 ~~~
 $ sudo usermod -aG wheel lowlevel
 ~~~
+
+### Configurar la aparencia y aplicaciones por defecto si gustas (opcional)
+ - Aplicaciones por defecto se configuran desde aqui:
+	- Preferences -> Default applications for LXSession
+ - Cambiar Iconos del sistema y muchas cosas mas:
+	- Preferences -> Customize Look and Feel
+ - Cambiar apariencia de las ventanas:
+	- OpenBox Configuration Manager
 
 ### Eliminar screensaver, normalmente trae mas problemas que beneficios
 ~~~
