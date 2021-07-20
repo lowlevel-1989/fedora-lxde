@@ -336,3 +336,13 @@ $ cd ~/.vim/bundle/YouCompleteMe
 $ python3 run_tests.py
 $ python3 install.py --all
 ~~~
+
+### Instalar Visor de imagen
+~~~
+$ sudo dnf install nomacs
+~~~
+
+### Utilizar mi configuración para nomacs (opcional)
+~~~
+$ cp -rf Image\ Lounge.conf ~/.config/nomacs
+~~~
