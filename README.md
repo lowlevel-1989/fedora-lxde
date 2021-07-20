@@ -340,6 +340,7 @@ $ python3 install.py --all
 ### Instalar Visor de imagen
 ~~~
 $ sudo dnf install nomacs
+$ sudo dnf install nomacs-plugins
 ~~~
 
 ### Utilizar mi configuración para nomacs (opcional)
