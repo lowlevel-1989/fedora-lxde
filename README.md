@@ -222,6 +222,9 @@ $ cat /proc/driver/nvidia/version
 $ glxinfo
 ~~~
 
+### Nvidia CUDA Toolkit (opcional)
+- https://developer.nvidia.com/cuda-toolkit
+
 ### Validar zona horaria
 ~~~
 $ timedatectl
