@@ -222,8 +222,8 @@ $ cat /proc/driver/nvidia/version
 $ glxinfo
 ~~~
 
-### Nvidia CUDA Toolkit (opcional)
-- https://developer.nvidia.com/cuda-toolkit
+### Nvidia CUDA Toolkit, importante instalar la version de cuta que regresa el comando nvidia-smi (opcional)
+- https://developer.nvidia.com/cuda-toolkit-archive
 
 ### Validar zona horaria
 ~~~
