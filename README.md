@@ -248,6 +248,77 @@ $ ls /usr/share/zoneinfo
 $ sudo timedatectl set-timezone Europe/Madrid
 ~~~
 
+### Gestionar módulos/drivers del kernel
+~~~
+    - La carga de modulo bajo demanda la gestiona UDEV.
+    - Habilitar modulo manualmente con modprobe
+    - Cargar modulo al inicio del sistema automaticamente
+	- /etc/modules
+	- /etc/modules-load.d/*.conf
+    - Configurar parametros que se cargan automaticamente
+	- /etc/modprobe.d/*.conf
+~~~
+
+### Listar todos los modulos cargados
+~~~
+$ lsmod
+~~~
+
+### Filtrar un modulo en concreto, en este caso bluetooth
+~~~
+$ lsmod | grep -i bluetooth
+~~~
+
+### Ver ruta del modulo y su información general 
+~~~
+$ modinfo bluetooth
+~~~
+
+### lspci
+~~~
+$ # lspci es una utilidad para mostrar información sobre los
+$ # buses PCI en el sistema y los dispositivos conectados a ellos.
+$
+$ lspci
+~~~
+
+### lspci con información mas interesante
+~~~
+$ lspci -vvv
+~~~
+
+### Si quieres mucha mas información usamos sudo
+~~~
+$ sudo lspci -vvv
+~~~
+
+### ver driver de los dispositivos que tenemos conectados por usb
+~~~
+$ usb-devices
+~~~
+
+### Conocer dependencias de un driver, en este ejemplo el de bluetooth
+~~~
+$ modprobe --show-depends bluetooth
+~~~
+
+### Cargar driver manualmente
+~~~
+$ sudo modprobe -vvv bluetooth
+~~~
+
+### Desactivar un modulo del kernel
+~~~
+$ sudo modprobe -r -vvv bluetooth
+~~~
+
+### Driver compilados dentro del kernel
+~~~
+$ cat /lib/modules/$(uname -r)/modules.builtin
+~~~
+
+### Crea la lista de dependencias, para todos los modulos cargados en el sistema
+
 ### Configurar V4L2 loopback (opcional)
 ~~~
 $ git clone https://github.com/umlaeute/v4l2loopback
