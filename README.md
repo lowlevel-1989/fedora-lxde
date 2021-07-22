@@ -111,6 +111,8 @@ $ sudo dnf install openbox-theme-mistral-thin
 ### Un Plus, ruta que no debes olvidar :3
 ~~~
 $ ls -l /usr/share/applications
+$ ls -l ~/.local
+$ ls -l ~/.config
 ~~~
 
 ### Crear usuario (opcional)
