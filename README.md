@@ -25,6 +25,12 @@ $ sudo cp vconsole.conf /etc/vconsole.conf
 $ setfont solar24x32
 ~~~
 
+### Numeros de kernels que queremos mantener con fedora (en mi caso 10 kernels)
+~~~
+ - editar /etc/dnf/dnf.conf
+ - installonly_limit=10
+~~~
+
 ### Actualizar S.O
 ~~~
 $ sudo dnf upgrade
