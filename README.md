@@ -318,6 +318,9 @@ $ cat /lib/modules/$(uname -r)/modules.builtin
 ~~~
 
 ### Crea la lista de dependencias, para todos los modulos cargados en el sistema
+~~~
+$ sudo depmod -a
+~~~
 
 ### Configurar V4L2 loopback (opcional)
 ~~~
