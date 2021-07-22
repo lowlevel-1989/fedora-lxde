@@ -108,6 +108,10 @@ $ dnf search openbox-theme
 $ sudo dnf install openbox-theme-mistral-thin
 ~~~
 
+### Un Plus, ruta que no debes olvidar :3
+~~~
+$ ls -l /usr/share/applications
+~~~
 
 ### Crear usuario (opcional)
 ~~~
@@ -430,3 +434,4 @@ $ sudo dnf install nomacs-plugins
 ~~~
 $ cp -rf Image\ Lounge.conf ~/.config/nomacs
 ~~~
+
