@@ -437,3 +437,9 @@ $ sudo dnf install nomacs-plugins
 $ cp -rf Image\ Lounge.conf ~/.config/nomacs
 ~~~
 
+### instalar VirtualBox (opcional)
+~~~
+$ sudo dnf install VirtualBox
+~~~
+
+
