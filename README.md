@@ -84,45 +84,72 @@ $ sudo dnf instasll thunar
 ~~~
 
 ### Instalar Gestor de apariencia
-~~~
+~~~bash
 $ sudo dnf install lxappearance
 ~~~
 
 ### Buscar iconos para el tema
-~~~
+~~~bash
 $ dnf search icon-theme
 ~~~
 
 ### Instalar los iconos que te gusten :3 ejemplo
-~~~
+~~~bash
 $ sudo dnf install breeze-icon-theme
 ~~~
 
 ### Buscar temas para OpenBox
-~~~
+~~~bash
 $ dnf search openbox-theme
 ~~~
 
 ### Instalar un Tema para OpenBox
-~~~
+~~~bash
 $ sudo dnf install openbox-theme-mistral-thin
 ~~~
 
-### Un Plus, ruta que no debes olvidar :3
+### Reparar error con mover iconos en el desktop (PCManFM)
+
+Antes que nada, mencionar algunos puntos teoricos xD...
+
+- **OpenBox** es el gestor de ventanas que utiliza **LXDE**.
+- **OpenBox** no admite de forma nativa el uso de iconos de escritorio o fondos de pantalla.
+- **OpenBox** utiliza **PCManFM** para gestionar los iconos del escritorio y fondo de pantalla ( Pero **PCManFM** es quien presenta el problema).
+- Misión cambiar **PCManFM** por **SpaceFM**, que es una modificación mejorada del **PCManFM**.
+
+##### Instalar SpaceFM
+~~~bash
+$ sudo dnf install spacefm
 ~~~
+
+##### Cambiar gestor de iconos y fondos
+
+Originalmente lo tenemos asi:
+![](pcmanfm.png)
+
+Lo tenemos que dejar asi :3
+![](spacefm.png)
+
+##### Para ver si funciona a la primera, reiniciar pc
+~~~bash
+$ reboot
+~~~
+
+### Un Plus, ruta que no debes olvidar :3
+~~~bash
 $ ls -l /usr/share/applications
 $ ls -l ~/.local
 $ ls -l ~/.config
 ~~~
 
 ### Crear usuario (opcional)
-~~~
+~~~bash
 $ sudo adduser lowlevel
 $ sudo passwd lowlevel
 ~~~
 
 ### Agregarlo como usuario con privilegios (opcional)
-~~~
+~~~bash
 $ sudo usermod -aG wheel lowlevel
 ~~~
 
