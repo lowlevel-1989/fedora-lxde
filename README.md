@@ -135,6 +135,13 @@ Lo tenemos que dejar asi :3
 $ cp /etc/xdg/lxsession/LXDE/autostart .config/lxsession/LXDE/autostart
 ~~~
 
+##### Mi configuración por si la desean
+~~~bash
+$ spacefm --desktop-pref
+~~~
+
+![](spacefm-settings.png) 
+
 ##### Para ver si funciona a la primera, reiniciar pc
 ~~~bash
 $ reboot
