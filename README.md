@@ -130,6 +130,11 @@ Originalmente lo tenemos asi:
 Lo tenemos que dejar asi :3
 ![](spacefm.png)
 
+##### Si tienes alguna configuración local, la reemplazamos
+~~~bash
+$ cp /etc/xdg/lxsession/LXDE/autostart .config/lxsession/LXDE/autostart
+~~~
+
 ##### Para ver si funciona a la primera, reiniciar pc
 ~~~bash
 $ reboot
