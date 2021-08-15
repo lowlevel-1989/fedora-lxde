@@ -31,6 +31,11 @@ $ setfont solar24x32
  - installonly_limit=10
 ~~~
 
+### Algunas dependencias que utilizaremos mas adelante :3 (acpid <- necesito leer mas sobre este hermoso)
+~~~
+$ sudo dnf install kernel-devel kernel-headers gcc make dkms acpid pkgconfig
+~~~
+
 ### Actualizar S.O
 ~~~
 $ sudo dnf upgrade
@@ -234,7 +239,7 @@ $ sudo dnf remove xorg-x11-drv-nouveau
 
 ### Instalar dependencias para compilar el controlador de NVIDIA
 ~~~
-$ sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
+$ sudo dnf install libglvnd-glx libglvnd-opengl libglvnd-devel
 ~~~
 
 ### Instalar NVIDIA desde el modo texto, Ejemplo
