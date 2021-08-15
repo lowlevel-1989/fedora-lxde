@@ -486,4 +486,8 @@ $ cp -rf Image\ Lounge.conf ~/.config/nomacs
 $ sudo dnf install VirtualBox
 ~~~
 
-
+### algo lindo a aprender
+~~~
+$ ldconfig -p | grep libcrypto.so
+$ ldd $(which openssl)
+~~~
