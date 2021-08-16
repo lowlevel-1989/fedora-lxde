@@ -8,9 +8,9 @@
 
 #### La interfaz de línea de comandos (CLI)  
 
-Es un tipo de interfaz de usuario de computadora que permite a los usuarios dar instrucciones a algún programa informático o al sistema operativo por medio de una línea de texto simple. Debe notarse que los conceptos de **CLI, shell y emulador de terminal **no son lo mismo ya que **CLI** se refiere al paradigma, mientras que un shell o un emulador de terminal son programas informáticos específicos, que usualmente en conjunto implementan la **CLI**. (**wikipedia**).
+Es un tipo de interfaz de usuario de computadora que permite a los usuarios dar instrucciones a algún programa informático o al sistema operativo por medio de una línea de texto simple. Debe notarse que los conceptos de **CLI, shell y emulador de terminal** no son lo mismo ya que **CLI** se refiere al paradigma, mientras que un shell o un emulador de terminal son programas informáticos específicos, que usualmente en conjunto implementan la **CLI**. (**wikipedia**).
 
-La contraparte de **CLI **es la interfaz gráfica de usuario (**GUI**) que ofrece una estética mejorada y una mayor simplificación, a costa de un mayor consumo de recursos computacionales, y, en general, de una reducción de la funcionalidad alcanzable. Asimismo aparece el problema de una **mayor vulnerabilidad** dada su complejidad. (Trabajar sobre esta suele ser mucho mas lento.)
+La contraparte de **CLI** es la interfaz gráfica de usuario (**GUI**) que ofrece una estética mejorada y una mayor simplificación, a costa de un mayor consumo de recursos computacionales, y, en general, de una reducción de la funcionalidad alcanzable. Asimismo aparece el problema de una **mayor vulnerabilidad** dada su complejidad. (Trabajar sobre esta suele ser mucho mas lento.)
 
 Las CLI son usadas por muchos programadores y administradores de sistemas como herramienta primaria de trabajo, especialmente en sistemas operativos basados en Unix; en entornos científicos y de ingeniería, y un subconjunto más pequeño de usuarios domésticos avanzados. (Aqui hablan de nosotros <3).
 
