@@ -28,7 +28,7 @@ La **consola**, a diferencia de la mayoría de los servicios que interactúan di
 
 #### Virtual consoles
 
-La consola se presenta al usuario como una serie de consolas virtuales. Estas dan la impresión de que varios terminales independientes se ejecutan simultáneamente. Cada consola virtual puede iniciar sesión con diferentes usuarios, ejecutar su propio intérprete de órdenes y tener su propia configuración de tipografía. Cada una de las consolas virtuales utiliza un dispositivo **/dev/ttyX**, y se puede alternar entre ellas presionando **Ctrl+Alt+Fx** (donde x es igual al número de la consola virtual, comenzando con 1). El dispositivo **/dev/console** se asigna automáticamente a la consola virtual activa.
+La consola se presenta al usuario como una serie de consolas virtuales. Estas dan la impresión de que varios terminales independientes se ejecutan simultáneamente. Cada consola virtual puede iniciar sesión con diferentes usuarios, ejecutar su propio intérprete de comandos y tener su propia configuración de tipografía. Cada una de las consolas virtuales utiliza un dispositivo **/dev/ttyX**, y se puede alternar entre ellas presionando **Ctrl+Alt+Fx** (donde x es igual al número de la consola virtual, comenzando con 1). El dispositivo **/dev/console** se asigna automáticamente a la consola virtual activa.
 
 #### La shell :3
 
