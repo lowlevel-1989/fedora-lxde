@@ -16,7 +16,7 @@ Las CLI son usadas por muchos programadores y administradores de sistemas como h
 
 Las Interfaz natural de usuario (**NUI**), no lo comento aqui, pero arriba he dejado la referencia por si quieren saber que es.
 
-![](/home/lowlevel/repos/fedora-lxde/cli-gui-nui.png) 
+![](cli-gui-nui.png) 
 
 ### Linux console
 
