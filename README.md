@@ -4,6 +4,8 @@
 - https://trac.ffmpeg.org/wiki/HWAccelIntro
 - https://trac.ffmpeg.org/wiki/Hardware/VAAPI
 - https://trac.ffmpeg.org/wiki/Hardware/QuickSync
+- https://wiki.archlinux.org/title/Arch_boot_process_(Espa%C3%B1ol)
+- https://clig.dev/#philosophy
 
 ### Desactivar auto interfaz grafica (Importante, por si dañas la interfaz o el sistema y esto evite que se quede congelado)
 ~~~
