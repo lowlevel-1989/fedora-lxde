@@ -24,7 +24,7 @@ Es una consola del sistema interno del kernel de Linux. La consola de Linux prop
 
 #### Implementación
 
-La **consola**, a diferencia de la mayoría de los servicios que interactúan directamente con los usuarios, se implementa en el **kernel**. Esto contrasta con el software de **emulación de terminal**, como **LXterminal**, **xfce4-terminal**, etc ... que se implementa en el** espacio del usuario** como una aplicación normal.
+La **consola**, a diferencia de la mayoría de los servicios que interactúan directamente con los usuarios, se implementa en el **kernel**. Esto contrasta con el software de **emulación de terminal**, como **LXterminal**, **xfce4-terminal**, etc ... que se implementa en el **espacio del usuario** como una aplicación normal.
 
 #### Virtual consoles
 
