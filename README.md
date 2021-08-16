@@ -7,6 +7,9 @@
 - https://wiki.archlinux.org/title/Arch_boot_process_(Espa%C3%B1ol)
 - https://clig.dev/#philosophy
 
+### Primera parte teórica =3 (CLI).
+- https://github.com/formatcom/fedora-lxde/blob/master/CLI.md
+
 ### Desactivar auto interfaz grafica (Importante, por si dañas la interfaz o el sistema y esto evite que se quede congelado)
 ~~~
 $ sudo systemctl disable lxdm.service
