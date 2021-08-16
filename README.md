@@ -7,6 +7,8 @@
 - https://wiki.archlinux.org/title/Arch_boot_process_(Espa%C3%B1ol)
 - https://clig.dev/#philosophy
 
+***
+
 ### Primera parte teórica =3 (CLI).
 - https://github.com/formatcom/fedora-lxde/blob/master/CLI.md
 
