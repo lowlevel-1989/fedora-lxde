@@ -32,10 +32,10 @@ $ sudo cp vconsole.conf /etc/vconsole.conf
 $ setfont solar24x32
 ~~~
 
-### Numeros de kernels que queremos mantener con fedora (en mi caso 10 kernels)
+### Numeros de kernels que queremos mantener con fedora (en mi caso 8 kernels)
 ~~~
  - editar /etc/dnf/dnf.conf
- - installonly_limit=10
+ - installonly_limit=8
 ~~~
 
 ### Algunas dependencias que utilizaremos mas adelante :3 (acpid <- necesito leer mas sobre este hermoso)
