@@ -87,7 +87,7 @@ $ openbox --restart
 
 ### Instalar cliente bluetooth
 ~~~
-$ sudo dnf install blueman
+$ sudo dnf install blueberry
 ~~~
 
 ### Instalar Thunar como navegador de archivos
