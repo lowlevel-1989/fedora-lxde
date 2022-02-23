@@ -498,3 +498,8 @@ $ sudo dnf install VirtualBox
 $ ldconfig -p | grep libcrypto.so
 $ ldd $(which openssl)
 ~~~
+
+### En el caso que no se detecta el disco duro NVME
+~~~
+$ cambiar la configuración de SATA a AHCI, desde la BIOS
+~~~
